@@ -1,0 +1,73 @@
+.add-car-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.add-car-container h2 {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.add-car-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.add-car-container input,
+.add-car-container textarea {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.add-car-container input:focus,
+.add-car-container textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.add-car-container textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.add-car-container button {
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.add-car-container button:hover {
+    background-color: #45a049;
+}
+
+.add-car-container .back-button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.add-car-container .back-button a {
+    color: #4CAF50;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.add-car-container .back-button a:hover {
+    text-decoration: underline;
+}
